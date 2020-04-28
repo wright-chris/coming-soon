@@ -1,0 +1,75 @@
+:root {
+    --box_color_one: #FDFDFD;
+    --box_color_two: #0E9B93;
+    --background_color: #FFF1F5;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background_color);
+}
+
+h1 {
+    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2 {
+    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4 {
+    font-family: 'PT Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.whole-box {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    min-height: 500px;
+    box-sizing: border-box;
+
+    border-radius: 1.375rem;
+
+    background-color: var(--box_color_two);
+
+    box-shadow: 0px 4px 15px rgba(255, 170, 170, 0.1), 0px 4px 50px rgba(0, 0, 0, 0.3);
+}
+
+.left-side {
+    width: 50%;
+    max-width: 900px;
+    margin: 0;
+    position: relative;
+    top: 25%;
+    min-height: 500px;
+    box-sizing: border-box;
+
+    border-radius: 1.375rem 0 0 1.375rem;
+
+    background-color: var(--box_color_one);
+}
+
+.computer-image {
+    /* by pixels (moves on smallers screens)
+    position: absolute;
+    width: 402px;
+    height: 336px;
+    left: 474px;
+    top: 82px;
+    */
+    position: absolute;
+    width: 402px;
+    height: 336px;
+    left: 52.67%;
+    top: 16.4%;
+}
