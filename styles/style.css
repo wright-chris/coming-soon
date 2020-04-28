@@ -253,3 +253,19 @@ h4, h5 {
     left: 60%;
     top: 80%;
 }
+
+a:link {
+    color: #9B0E38;
+}
+
+a:visited {
+    color: #6e0222;
+}
+
+a:hover {
+    color: #c21b4d;
+}
+
+a:active {
+    color: #a6113d;
+}
