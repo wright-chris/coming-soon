@@ -27,7 +27,7 @@ h4, h5 {
     max-width: 900px;
     margin: auto;
     position: relative;
-    top: 25%;
+    top: 15%;
     min-height: 500px;
     box-sizing: border-box;
 
@@ -76,7 +76,7 @@ h4, h5 {
 
 .logo-text {
     position: absolute;
-    left: 20%;
+    left: 22%;
     top: 3%;
     line-height: 0;
     font-size: 1.5rem;
@@ -90,14 +90,14 @@ h4, h5 {
 .coming-soon {
     position: absolute;
     margin: auto;
-    top: 30%;
+    top: 27%;
     line-height: 1;
     font-size: 1.25rem;
 }
 
 .celebrating-launch {
     position: absolute;
-    top: 43%;
+    top: 38%;
     font-size: 1.25rem;
     width: 80%;
 }
