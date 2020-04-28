@@ -13,20 +13,12 @@ body {
     background-color: var(--background_color);
 }
 
-h1 {
-    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+h1, h2, h3 {
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2 {
-    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-h3 {
-    font-family: 'Nunito','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-h4 {
-    font-family: 'PT Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+h4, h5 {
+    font-family: 'PT Sans', 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .whole-box {
